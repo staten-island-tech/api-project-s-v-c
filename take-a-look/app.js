@@ -34,7 +34,7 @@ const DOMStrings = {
           DOMStrings.displayImage2.src = data.hits[1].largeImageURL;
           DOMStrings.displayImage3.src = data.hits[2].largeImageURL;
           DOMStrings.displayImage4.src = data.hits[3].largeImageURL;
-         // DOMStrings.type.textContent = data.hits.map(hits => hits[0].user); //check
+         DOMStrings.type.textContent = data.hits.map(hits => hits[0].user); //check
          console.log(data.hits[0].largeImageURL);
         };
         displayPic(data);
