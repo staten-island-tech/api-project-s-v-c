@@ -2183,7 +2183,7 @@ section {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0.67rem 0;
 }
 
 /* Grouping content
@@ -2203,7 +2203,7 @@ main {
  * Add the correct margin in IE 8.
  */
 figure {
-  margin: 1em 40px;
+  margin: 1rem 2.5rem;
 }
 
 /**
@@ -2227,7 +2227,7 @@ hr {
 pre {
   font-family: monospace, monospace;
   /* 1 */
-  font-size: 1em;
+  font-size: 1rem;
   /* 2 */
 }
 
@@ -2282,7 +2282,7 @@ kbd,
 samp {
   font-family: monospace, monospace;
   /* 1 */
-  font-size: 1em;
+  font-size: 1rem;
   /* 2 */
 }
 
@@ -2321,11 +2321,11 @@ sup {
 }
 
 sub {
-  bottom: -0.25em;
+  bottom: -0.25rem;
 }
 
 sup {
-  top: -0.5em;
+  top: -0.5rem;
 }
 
 /* Embedded content
@@ -2439,7 +2439,7 @@ button:-moz-focusring,
  * Correct the padding in Firefox.
  */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
+  padding: 0.35rem 0.75rem 0.625rem;
 }
 
 /**
@@ -2510,7 +2510,7 @@ textarea {
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  outline-offset: -2px;
+  outline-offset: -1.25rem;
   /* 2 */
 }
 
@@ -2694,12 +2694,12 @@ i {
 
 i.left {
   float: left;
-  margin-right: 15px;
+  margin-right: 9.375rem;
 }
 
 i.right {
   float: right;
-  margin-left: 15px;
+  margin-left: 9.375rem;
 }
 
 i.tiny {
@@ -2778,7 +2778,7 @@ video.responsive-video {
 }
 
 .breadcrumb {
-  font-size: 18px;
+  font-size: 11.25rem;
   color: rgba(255, 255, 255, 0.7);
 }
 

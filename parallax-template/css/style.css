@@ -1,10 +1,12 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+html {
+	font-size: 62.5%
+}
+*, *::before, *:: after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
   background-color:#E8E8E8;
 }
@@ -27,18 +29,8 @@ p {
   height: auto;
   color: black;
   }
- .about_text {
-    float: left;
-    width: 50%;
-    height: 90vh;
-  } 
-.column_photos {
-  float: left;
-    width: 50%;
-    height: 90vh;
-}
 .layer_photos {
-  width: 40%;
+  width: 30%;
   height: auto;
   margin: 2rem;
 }
@@ -75,4 +67,8 @@ video {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.text{
+  color: black;
+  font-size: 2rem;
 }
