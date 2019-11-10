@@ -34,7 +34,7 @@ p {
 .photo {
   width: 80%;
   height: auto;
-  margin: 2rem;
+  margin: 6rem;
 }
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -63,19 +63,71 @@ footer.page-footer {
   margin: 0;
 }
 video {
-  height: 900px;
+  height: 90rem;
   color:white;
   opacity: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+.text-title{
+  margin: 15rem;
+}
 .text{
   color: black;
   font-size: 2rem;
 }
-.coming_soon{
-  background-color: #3CB371;
-  background-image: url("background3.jpg");
 
+.member-title {
+  font-family: 'Liu Jian Mao Cao', cursive;
+}
+.creater_img{
+  width:20%;
+  height: auto;
+}
+.creaters{
+  position: relative;
+  height: 70vh;
+}
+.creater_img {
+  
+  clip-path: circle(35% at 50% 50%);
+}
+.veda_img {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+.creater_veda{
+  position: absolute;
+  top: 25%;
+  left: 25%;  
+}
+.corn_img {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+.creater_corn{
+  position: absolute;
+  top: 45%;
+  left: 40%;  
+}
+.sarah_img {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+}
+.creater_sarah{
+  position: absolute;
+  top: 75%;
+  left: 25%;  
+}
+.soon_img{
+  height: 30%;
+  width: 100%;
+}
+.near_img{
+  height: 10%;
+  width: 100%;
 }

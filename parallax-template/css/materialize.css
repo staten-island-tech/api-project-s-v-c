@@ -2792,7 +2792,7 @@ video.responsive-video {
 .breadcrumb [class^="mdi-"], .breadcrumb [class*="mdi-"],
 .breadcrumb i.material-icons {
   display: inline-block;
-  float: left;
+  float:left;
   font-size: 24px;
 }
 
