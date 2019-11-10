@@ -72,3 +72,6 @@ video {
   color: black;
   font-size: 2rem;
 }
+.coming_soon {
+  background-image: url(background.jpg);
+}
