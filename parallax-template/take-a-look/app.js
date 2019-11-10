@@ -1,3 +1,5 @@
+import AlertMsg from "./msg"; 
+
 const DOMStrings = {
     input: document.getElementById("pic-form"),
     name: document.getElementById("pic-theme"),
@@ -50,8 +52,9 @@ const DOMStrings = {
   }
   
   document.getElementById("pic-form").addEventListener("submit", function (e) {
+    let xyz = new AlertMsg(); 
     if (DOMStrings.name.value === '') {
-      alert('Please Search Something');
+       alert("Please input something!"); 
     } else {
       DOMStrings.displayTags.innerText = data.hits[0].tags;
       DOMStrings.displayNum.innerText = data.hits[0].likes;
