@@ -1,7 +1,7 @@
 html {
 	font-size: 62.5%
 }
-*, *::before, *:: after {
+*, *::before, *::after {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -18,7 +18,9 @@ nav .brand-logo {
 p {
   line-height: 2rem;
 }
-.
+.section {
+  top:0%;
+}
 .sidenav-trigger {
   color:#3CB371;
 }
@@ -29,8 +31,8 @@ p {
   height: auto;
   color: black;
   }
-.layer_photos {
-  width: 30%;
+.photo {
+  width: 80%;
   height: auto;
   margin: 2rem;
 }
@@ -62,7 +64,7 @@ footer.page-footer {
 }
 video {
   height: 900px;
-  color: black;
+  color:white;
   opacity: 80%;
   display: block;
   margin-left: auto;
@@ -72,6 +74,8 @@ video {
   color: black;
   font-size: 2rem;
 }
-.coming_soon {
-  background-image: url(background.jpg);
+.coming_soon{
+  background-color: #3CB371;
+  background-image: url("background3.jpg");
+
 }
