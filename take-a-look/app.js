@@ -6,6 +6,8 @@ const DOMStrings = {
   displayImage2: document.querySelector(".display-image-2-def"),
   displayImage3: document.querySelector(".display-image-3-front"),
   displayImage4: document.querySelector(".display-image-4-back"),
+  displayImage5: document.querySelector(".display-image-5-back"),
+  displayImage6: document.querySelector(".display-image-6-back"),
   type: document.querySelector(".theme"),
   displayNum: document.querySelector(".pic-num")
 };
@@ -34,8 +36,8 @@ const test = async function () {
         DOMStrings.displayImage2.src = data.hits[1].largeImageURL;
         DOMStrings.displayImage3.src = data.hits[2].largeImageURL;
         DOMStrings.displayImage4.src = data.hits[3].largeImageURL;
-        DOMStrings.displayImage3.src = data.hits[4].largeImageURL;
-        DOMStrings.displayImage4.src = data.hits[5].largeImageURL;
+        DOMStrings.displayImage5.src = data.hits[4].largeImageURL;
+        DOMStrings.displayImage6.src = data.hits[5].largeImageURL;
         DOMStrings.type.textContent = data.hits.map(hits => hits[0].imageWidth); //check
         console.log(data.hits[0].largeImageURL);
       };
