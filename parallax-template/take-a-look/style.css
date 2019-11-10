@@ -1,0 +1,10 @@
+
+.display-image-banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+  
+  body {background-color: lightblue;}
+  
