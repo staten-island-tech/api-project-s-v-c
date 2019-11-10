@@ -19,7 +19,7 @@ DOMStrings.input.addEventListener("keypress", function (event) {
   }
 });
 
-const test = async function () {
+const test = async function() {
   DOMStrings.input.addEventListener("submit", async function (e) {
     e.preventDefault();
     try {
@@ -64,6 +64,7 @@ document.getElementById("pic-form").addEventListener("submit", function (e) {
     DOMStrings.type.textContent = data.hits.map(hits => hits[0].imageWidth);
   }
 });
+
 
 // $('DOMStrings.name.value').spellCheckInDialog()
 
