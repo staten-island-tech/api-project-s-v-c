@@ -1,4 +1,4 @@
-import AlertMsg from "./msg"; 
+
 
 const DOMStrings = {
     input: document.getElementById("pic-form"),
@@ -32,7 +32,7 @@ const DOMStrings = {
         //console.log(data);
   
         const displayPic = function (data) {
-          DOMStrings.displayTags.innerText = data.hits[0].tags;
+          DOMStrings.displayTags.innerText = data.hits[0].tags; 
           DOMStrings.displayNum.innerText = data.hits[0].likes;
           DOMStrings.displayImage1.src = data.hits[0].largeImageURL;
           DOMStrings.displayImage2.src = data.hits[1].largeImageURL;
@@ -41,7 +41,7 @@ const DOMStrings = {
           DOMStrings.displayImage5.src = data.hits[4].largeImageURL;
           DOMStrings.displayImage6.src = data.hits[5].largeImageURL;
           DOMStrings.type.textContent = data.hits.map(hits => hits[0].imageWidth); //check
-          console.log(data.hits[0].largeImageURL);
+          //console.log(data.hits[0].largeImageURL);
         };
         displayPic(data);
         DOMStrings.name.value = "";
@@ -51,8 +51,8 @@ const DOMStrings = {
     });
   }
   
-  document.getElementById("pic-form").addEventListener("submit", function (e) {
-    let xyz = new AlertMsg(); 
+  document.getElementById("pic-submit").addEventListener("submit", function (e) {
+
     if (DOMStrings.name.value === '') {
        alert("Please input something!"); 
     } else {
