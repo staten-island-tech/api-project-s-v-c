@@ -90,7 +90,6 @@ video {
   height: 70vh;
 }
 .creater_img {
-  
   clip-path: circle(35% at 50% 50%);
 }
 .veda_img {
@@ -120,6 +119,8 @@ video {
 }
 .corn:hover .overlay {
   opacity: 1;
+  width: 10%;
+  top: 35%;
 }
 .creater_corn{
   position: absolute;
