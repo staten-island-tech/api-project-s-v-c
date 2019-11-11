@@ -53,3 +53,6 @@ const DOMStrings = {
   }
   
   test();
+
+  import message from "init.js"; 
+  console.log(message); 
