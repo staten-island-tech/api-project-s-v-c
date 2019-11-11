@@ -5,7 +5,7 @@
     flex-wrap: wrap; 
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 75%; 
   }
   
   
@@ -27,3 +27,13 @@
   .w3-content {
     margin-top:100px;
   }
+
+.logo{
+  display: flex; 
+  justify-content: space-around;
+    flex-wrap: wrap; 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
