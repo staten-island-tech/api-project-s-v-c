@@ -98,6 +98,16 @@ video {
   top: 20%;
   left: 5%;
 }
+.veda:hover .overlay {
+  opacity: 1;
+}
+.overlay{
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
 .creater_veda{
   position: absolute;
   top: 25%;
@@ -108,6 +118,9 @@ video {
   top: 40%;
   left: 20%;
 }
+.corn:hover .overlay {
+  opacity: 1;
+}
 .creater_corn{
   position: absolute;
   top: 45%;
@@ -117,6 +130,9 @@ video {
   position: absolute;
   top: 70%;
   left: 5%;
+}
+.sarah:hover .overlay {
+  opacity: 1;
 }
 .creater_sarah{
   position: absolute;
