@@ -56,8 +56,8 @@ const DOMStrings = {
     if (DOMStrings.name.value === '') {
        alert("Please input something!"); 
     } else {
-      DOMStrings.displayTags.innerText = data.hits[0].tags;
-      DOMStrings.displayNum.innerText = data.hits[0].likes;
+      DOMStrings.displayTags.innerText = 'tags:' + data.hits[0].tags;
+      DOMStrings.displayNum.innerText = 'Number of Likes:' + data.hits[0].likes;
       DOMStrings.displayImage1.src = data.hits[0].largeImageURL;
       DOMStrings.displayImage2.src = data.hits[1].largeImageURL;
       DOMStrings.displayImage3.src = data.hits[2].largeImageURL;
