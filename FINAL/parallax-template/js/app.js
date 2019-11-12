@@ -1,4 +1,4 @@
-
+// import alertString from './eventListener';
 
 const DOMStrings = {
     input: document.getElementById("pic-form"),
@@ -20,9 +20,15 @@ const DOMStrings = {
       document.querySelector(".nes-btn").click();
     }
   });
+
+  
   
   const test = async function() {
     DOMStrings.input.addEventListener("submit", async function (e) {
+      if (DOMStrings.name.value === '') {
+        alert("Please input something!"); 
+        // alert("${alertString}")
+     } else {
       e.preventDefault();
       try {
         const result = await fetch(
@@ -49,7 +55,9 @@ const DOMStrings = {
       } catch (err) {
         console.log(err);
       }
+    }
     });
   }
+
   
   test();
