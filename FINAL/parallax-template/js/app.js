@@ -1,4 +1,5 @@
-// import alertString from './eventListener';
+
+// import alertString from 'eventListener';
 
 const DOMStrings = {
     input: document.getElementById("pic-form"),
@@ -27,7 +28,7 @@ const DOMStrings = {
     DOMStrings.input.addEventListener("submit", async function (e) {
       if (DOMStrings.name.value === '') {
         alert("Please input something!"); 
-        // alert("${alertString}")
+        // alert(alertString)
      } else {
       e.preventDefault();
       try {
